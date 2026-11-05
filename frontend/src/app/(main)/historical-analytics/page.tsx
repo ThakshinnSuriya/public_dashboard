@@ -787,7 +787,7 @@ function MarginHistogram({ bins, selectedId, onSelect }: { bins: MarginBin[]; se
               style={{
                 height: `${(n / max) * 100}px`,
                 minHeight: n ? 2 : 0,
-                backgroundColor: active ? "var(--ha-accent)" : "var(--ha-primary)",
+                backgroundColor: active ? "rgb(150, 62, 179)" : "rgb(157, 222, 255)",
                 opacity: selectedId && !active ? 0.45 : 1,
               }}
             />
