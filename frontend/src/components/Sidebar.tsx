@@ -19,6 +19,7 @@ import {
 
 const navigationItems = [
   { label: "Dashboard", icon: LayoutDashboard, href: "/dashboard" },
+  { label: "Constituency News", icon: History, href:"/constituency-news" },
   { label: "Research Projects", icon: FolderSearch, href: "/dashboard" },
   { label: "Research Results", icon: ChartNoAxesCombined, href: "/dashboard" },
   { label: "Historical Elections", icon: History, href: "/historical-elections" },
